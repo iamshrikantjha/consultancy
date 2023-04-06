@@ -1,38 +1,5 @@
 import React from 'react'
 
-// const LandingHero = () => {
-//   return (
-//     <div>
-//       {/* HERO CONTAINER */}
-//       <div className="flex flex-row mt-36">
-//         {/* LEFT */}
-//         <div className="w-7/12 pb-36">
-//           <div className="text-7xl font-semibold w-10/12 mx-auto">
-//             Drives <p className="bg-yellow-300 inline">Revenue</p> <br />{" "}
-//             Digital Marketing Agency That
-//           </div>
-//           <div className="text-xl font-normal w-10/12 mx-auto mt-10">
-//             Lorem Ipsum is simply dummy text of the printing and typesetting
-//             industry. Lorem Ipsum has been the industry's standard dummy text
-//             ever since the 1500s,{" "}
-//           </div>
-
-//           {/* BUTTON */}
-//           <div className="w-10/12 mx-auto mt-10">
-//             <div className="text-white bg-black w-fit text-xl py-3 px-5 rounded-full cursor-pointer">
-//               Get Started
-//             </div>
-//           </div>
-//         </div>
-//         {/* RIGHT */}
-//         <div className="w-5/12">
-//           <div className="w-full h-full bg-cover bg-[url('https://atis.com/wp-content/uploads/2020/07/manager3-927x1024.jpg')] rounded-tl-3xl"></div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
 const LandingHero = () => {
   return (
     <>
