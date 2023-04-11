@@ -271,7 +271,7 @@ const LandingHero = () => {
       </div>
 
       {/* TRUSTED BY */}
-      <div className="bg-white py-6 sm:py-8 lg:py-12">
+      {/* <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mb-4 flex flex-col items-center md:mb-8 lg:flex-row lg:justify-between">
             <h2 className="mb-2 text-center text-2xl font-bold text-gray-800 lg:mb-0 lg:text-3xl">
@@ -371,7 +371,7 @@ const LandingHero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* CALL TO ACTION */}
       <div className="bg-white py-6 sm:py-8 lg:py-12">
@@ -1219,7 +1219,7 @@ const LandingHero = () => {
       </div>
 
       {/* STATS COMPONENT */}
-      <div className="bg-white py-6 sm:py-8 lg:py-12">
+      {/* <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
           <div className="mb-8 md:mb-12">
             <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
@@ -1267,10 +1267,10 @@ const LandingHero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* TESTIMONIALS */}
-      <div className="bg-white py-6 sm:py-8 lg:py-12">
+      {/* <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
           <h2 className="mb-8 text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl">
             What others say about us
@@ -1359,7 +1359,7 @@ const LandingHero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* FAQ */}
       <div className="bg-white py-6 sm:py-8 lg:py-12">
@@ -1537,7 +1537,7 @@ const LandingHero = () => {
       </div>
 
       {/* PRICING */}
-      <div className="bg-white py-6 sm:py-8 lg:py-12">
+      {/* <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl xl:mb-12">
             Pricing
@@ -2010,7 +2010,7 @@ const LandingHero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* CONTACT US */}
       <div className="bg-white py-6 sm:py-8 lg:py-12">
