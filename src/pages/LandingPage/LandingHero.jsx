@@ -123,7 +123,7 @@ const LandingHero = () => {
               </p>
 
               <h1 className="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">
-                Revolutionary way to build the web
+                Revolutionary way to build an impact in web.
               </h1>
 
               <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
@@ -145,7 +145,8 @@ const LandingHero = () => {
 
             <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-96 xl:w-5/12">
               <img
-                src="https://images.unsplash.com/photo-1618556450991-2f1af64e8191?auto=format&q=75&fit=crop&w=1000"
+                // src="https://images.unsplash.com/photo-1618556450991-2f1af64e8191?auto=format&q=75&fit=crop&w=1000"
+                src='https://img.freepik.com/free-vector/strategic-consulting-concept-illustration_114360-8994.jpg?w=2000'
                 loading="lazy"
                 alt="Photo by Fakurian Design"
                 className="h-full w-full object-cover object-center"
