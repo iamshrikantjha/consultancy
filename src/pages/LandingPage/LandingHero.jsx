@@ -1,5 +1,6 @@
 import React from 'react'
 // import Nodemailer from 'nodemailer'
+import AuthorImg from './../../assets/pritesh2.jpeg'
 
 const LandingHero = () => {
 
@@ -123,7 +124,7 @@ const LandingHero = () => {
               </p>
 
               <h1 className="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">
-                Revolutionary way to build an impact in web.
+                Revolutionary way to build an impact in tech.
               </h1>
 
               <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
@@ -757,7 +758,7 @@ const LandingHero = () => {
             <div className="flex flex-col items-center">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
                 <img
-                  src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=256"
+                  src={AuthorImg}
                   loading="lazy"
                   alt="Photo by Radu Florin"
                   className="h-full w-full object-cover object-center"
@@ -766,7 +767,7 @@ const LandingHero = () => {
 
               <div>
                 <div className="text-center font-bold text-indigo-500 md:text-lg">
-                  John McCulling
+                  Pritesh Kumar
                 </div>
                 <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
                   Founder / CEO
