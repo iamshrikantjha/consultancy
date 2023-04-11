@@ -1,6 +1,45 @@
 import React from 'react'
+// import Nodemailer from 'nodemailer'
 
 const LandingHero = () => {
+
+  // const sendEmail = async() => {
+  //   try {
+  //       // Generate test SMTP service account from ethereal.email
+  //       // Only needed if you don't have a real mail account for testing
+  //       let testAccount = await Nodemailer.createTestAccount();
+      
+  //       // create reusable transporter object using the default SMTP transport
+  //       let transporter = Nodemailer.createTransport({
+  //         host: "smtp.ethereal.email",
+  //         port: 587,
+  //         secure: false, // true for 465, false for other ports
+  //         auth: {
+  //           user: testAccount.user, // generated ethereal user
+  //           pass: testAccount.pass, // generated ethereal password
+  //         },
+  //       });
+      
+  //       // send mail with defined transport object
+  //       let info = await transporter.sendMail({
+  //         from: '"Fred Foo 👻" <foo@example.com>', // sender address
+  //         to: "shrikantjha11@gmail.com", // list of receivers
+  //         subject: "Hello ✔", // Subject line
+  //         text: "Hello world?", // plain text body
+  //         html: "<b>Hello world?</b>", // html body
+  //       });
+      
+  //       console.log("Message sent: %s", info.messageId);
+  //       // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+      
+  //       // Preview only available when sending through an Ethereal account
+  //       console.log("Preview URL: %s", Nodemailer.getTestMessageUrl(info));
+  //       // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+  //   } catch (error) {
+  //     console.log('The error ', error);
+  //   }
+  // }
+
   return (
     <>
       <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
@@ -364,9 +403,9 @@ const LandingHero = () => {
             </h2>
 
             <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-              This is a section of some simple filler text, also known as
-              placeholder text. It shares some characteristics of a real written
-              text but is random or otherwise generated.
+              Technology is constantly evolving, and so is web design. Our team
+              keeps up with the latest trends and techniques to create websites
+              that are modern, sleek and smooth.
             </p>
           </div>
 
@@ -390,17 +429,19 @@ const LandingHero = () => {
               </div>
 
               <div>
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Growth</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                Backend Development 
+                </h3>
                 <p className="mb-2 text-gray-500">
                   Filler text is dummy text which has no meaning however looks
                   very similar to real text.
                 </p>
-                <a
+                {/* <a
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -423,17 +464,19 @@ const LandingHero = () => {
               </div>
 
               <div>
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Security</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                Frontend Development 
+                </h3>
                 <p className="mb-2 text-gray-500">
                   Filler text is dummy text which has no meaning however looks
                   very similar to real text.
                 </p>
-                <a
+                {/* <a
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -456,17 +499,17 @@ const LandingHero = () => {
               </div>
 
               <div>
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Cloud</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">UI / UX</h3>
                 <p className="mb-2 text-gray-500">
                   Filler text is dummy text which has no meaning however looks
                   very similar to real text.
                 </p>
-                <a
+                {/* <a
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -489,17 +532,17 @@ const LandingHero = () => {
               </div>
 
               <div>
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Speed</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">Mobile App Development </h3>
                 <p className="mb-2 text-gray-500">
                   Filler text is dummy text which has no meaning however looks
                   very similar to real text.
                 </p>
-                <a
+                {/* <a
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -516,23 +559,26 @@ const LandingHero = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
+                    // d="M335.919,212.081c-23.976,15.987-38.363-33.566-79.922-33.566c-41.558,0-55.943,49.553-79.92,33.566 c1.601,14.386,47.951,43.155,79.92-4.796C287.966,255.236,334.318,226.467,335.919,212.081z"
                     d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
                   />
                 </svg>
               </div>
 
               <div>
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Support</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                Technical Consulting
+                </h3>
                 <p className="mb-2 text-gray-500">
                   Filler text is dummy text which has no meaning however looks
                   very similar to real text.
                 </p>
-                <a
+                {/* <a
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -555,18 +601,131 @@ const LandingHero = () => {
               </div>
 
               <div>
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Dark Mode</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                  Content Writing 
+                </h3>
                 <p className="mb-2 text-gray-500">
                   Filler text is dummy text which has no meaning however looks
                   very similar to real text.
                 </p>
-                <a
+                {/* <a
                   href="#"
                   className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
                 >
                   More
-                </a>
+                </a> */}
               </div>
+            </div>
+
+            <div className="flex gap-4 md:gap-6">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                  />
+                </svg>
+              </div>
+
+              <div>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                3D Modelling 
+                </h3>
+                <p className="mb-2 text-gray-500">
+                  Filler text is dummy text which has no meaning however looks
+                  very similar to real text.
+                </p>
+                {/* <a
+                  href="#"
+                  className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                >
+                  More
+                </a> */}
+              </div>
+
+              
+            </div>
+
+            <div className="flex gap-4 md:gap-6">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                  />
+                </svg>
+              </div>
+
+              <div>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                Content Writing 
+                </h3>
+                <p className="mb-2 text-gray-500">
+                  Filler text is dummy text which has no meaning however looks
+                  very similar to real text.
+                </p>
+                {/* <a
+                  href="#"
+                  className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                >
+                  More
+                </a> */}
+              </div>
+
+              
+            </div>
+
+            <div className="flex gap-4 md:gap-6">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                  />
+                </svg>
+              </div>
+
+              <div>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                Video Editing 
+                </h3>
+                <p className="mb-2 text-gray-500">
+                  Filler text is dummy text which has no meaning however looks
+                  very similar to real text.
+                </p>
+                {/* <a
+                  href="#"
+                  className="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700"
+                >
+                  More
+                </a> */}
+              </div>
+
+              
             </div>
           </div>
         </div>
@@ -1089,7 +1248,9 @@ const LandingHero = () => {
               <div className="text-xl font-bold text-indigo-500 sm:text-2xl md:text-3xl">
                 1000+
               </div>
-              <div className="text-sm font-semibold sm:text-base">Customers</div>
+              <div className="text-sm font-semibold sm:text-base">
+                Customers
+              </div>
             </div>
 
             <div className="flex flex-col items-center justify-center rounded-lg bg-gray-100 p-4 md:p-8">
@@ -1416,7 +1577,9 @@ const LandingHero = () => {
                         />
                       </svg>
 
-                      <span className="text-gray-600">1.000 MB file storage</span>
+                      <span className="text-gray-600">
+                        1.000 MB file storage
+                      </span>
                     </div>
 
                     <div className="flex items-center gap-2">
@@ -1551,7 +1714,9 @@ const LandingHero = () => {
                         />
                       </svg>
 
-                      <span className="text-gray-600">Unlimited file storage</span>
+                      <span className="text-gray-600">
+                        Unlimited file storage
+                      </span>
                     </div>
 
                     <div className="flex items-center gap-2">
@@ -1605,7 +1770,9 @@ const LandingHero = () => {
                         />
                       </svg>
 
-                      <span className="text-gray-600">10.000 tasks per month</span>
+                      <span className="text-gray-600">
+                        10.000 tasks per month
+                      </span>
                     </div>
 
                     <div className="flex items-center gap-2">
@@ -1710,7 +1877,9 @@ const LandingHero = () => {
                         />
                       </svg>
 
-                      <span className="text-gray-600">Unlimited file storage</span>
+                      <span className="text-gray-600">
+                        Unlimited file storage
+                      </span>
                     </div>
 
                     <div className="flex items-center gap-2">
@@ -1792,7 +1961,9 @@ const LandingHero = () => {
                         />
                       </svg>
 
-                      <span className="text-gray-600">Email and phone support</span>
+                      <span className="text-gray-600">
+                        Email and phone support
+                      </span>
                     </div>
 
                     <div className="flex items-center gap-2">
