@@ -42,6 +42,8 @@ const LandingHero = () => {
 
   return (
     <>
+
+      {/* HERO SECTION */}
       <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <header className="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
@@ -63,7 +65,7 @@ const LandingHero = () => {
               Flowrift
             </a>
 
-            <nav className="hidden gap-12 lg:flex">
+            {/* <nav className="hidden gap-12 lg:flex">
               <a href="#" className="text-lg font-semibold text-indigo-500">
                 Home
               </a>
@@ -85,7 +87,7 @@ const LandingHero = () => {
               >
                 About
               </a>
-            </nav>
+            </nav> */}
 
             <a
               href="#"
@@ -94,7 +96,7 @@ const LandingHero = () => {
               Contact Now
             </a>
 
-            <button
+            {/* <button
               type="button"
               className="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden"
             >
@@ -111,7 +113,7 @@ const LandingHero = () => {
                 />
               </svg>
               Menu
-            </button>
+            </button> */}
           </header>
 
           <section className="mb-8 flex flex-col justify-between gap-6 sm:gap-10 md:mb-16 md:gap-16 lg:flex-row">
@@ -2013,7 +2015,7 @@ const LandingHero = () => {
       </div> */}
 
       {/* CONTACT US */}
-      <div className="bg-white py-6 sm:py-8 lg:py-12">
+      {/* <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mb-10 md:mb-16">
             <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
@@ -2126,7 +2128,7 @@ const LandingHero = () => {
             </p>
           </form>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

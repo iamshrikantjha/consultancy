@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="bg-white">
-      <div className="bg-indigo-500 py-6">
+      {/* <div className="bg-indigo-500 py-6">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="flex flex-col items-center justify-between gap-2 md:flex-row">
             <div className="mb-3 text-center md:mb-0 md:text-left">
@@ -25,7 +25,7 @@ const Footer = () => {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="pt-12 lg:pt-16">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
