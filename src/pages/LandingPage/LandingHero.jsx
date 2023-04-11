@@ -91,7 +91,7 @@ const LandingHero = () => {
               href="#"
               className="hidden rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block"
             >
-              Contact Sales
+              Contact Now
             </a>
 
             <button
@@ -379,16 +379,16 @@ const LandingHero = () => {
           <div className="flex flex-col items-center justify-between gap-4 rounded-lg bg-gray-100 p-4 sm:flex-row md:p-8">
             <div>
               <h2 className="text-xl font-bold text-indigo-500 md:text-2xl">
-                Start your free trial
+                Have some ideas?
               </h2>
-              <p className="text-gray-600">No Credit Card required</p>
+              <p className="text-gray-600"> Get a free quote from us right away if you're interested in any of these services.</p>
             </div>
 
             <a
               href="#"
               className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
             >
-              Start now
+              Call now
             </a>
           </div>
         </div>
