@@ -430,11 +430,11 @@ const LandingHero = () => {
 
               <div>
                 <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                Backend Development 
+                  Backend Development
                 </h3>
                 <p className="mb-2 text-gray-500">
-                  Filler text is dummy text which has no meaning however looks
-                  very similar to real text.
+                  We offer a range of services, including database design and
+                  performance, server-side programming, and API development.
                 </p>
                 {/* <a
                   href="#"
@@ -465,11 +465,12 @@ const LandingHero = () => {
 
               <div>
                 <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                Frontend Development 
+                  Frontend Development
                 </h3>
                 <p className="mb-2 text-gray-500">
-                  Filler text is dummy text which has no meaning however looks
-                  very similar to real text.
+                  If you want a website that looks amazing and delivers a great
+                  user experience, our team of skilled front-end developers can
+                  make it happen.
                 </p>
                 {/* <a
                   href="#"
@@ -499,10 +500,12 @@ const LandingHero = () => {
               </div>
 
               <div>
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">UI / UX</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                  UI / UX
+                </h3>
                 <p className="mb-2 text-gray-500">
-                  Filler text is dummy text which has no meaning however looks
-                  very similar to real text.
+                  The wireframing, prototyping, user testing, and optimization
+                  stages of our UI/UX development process are all included.
                 </p>
                 {/* <a
                   href="#"
@@ -532,10 +535,13 @@ const LandingHero = () => {
               </div>
 
               <div>
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Mobile App Development </h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                  Mobile App Development{" "}
+                </h3>
                 <p className="mb-2 text-gray-500">
-                  Filler text is dummy text which has no meaning however looks
-                  very similar to real text.
+                  Look no further than our team of talented mobile app
+                  developers if you want a mobile app that not only looks great
+                  but also offers a superior user experience.
                 </p>
                 {/* <a
                   href="#"
@@ -567,11 +573,12 @@ const LandingHero = () => {
 
               <div>
                 <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                Technical Consulting
+                  Technical Consulting
                 </h3>
                 <p className="mb-2 text-gray-500">
-                  Filler text is dummy text which has no meaning however looks
-                  very similar to real text.
+                  Our team of knowledgeable technical consultants is here to
+                  help if you need expert technical advice to expand your
+                  company.
                 </p>
                 {/* <a
                   href="#"
@@ -602,11 +609,12 @@ const LandingHero = () => {
 
               <div>
                 <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                  Content Writing 
+                  Content Creation
                 </h3>
                 <p className="mb-2 text-gray-500">
-                  Filler text is dummy text which has no meaning however looks
-                  very similar to real text.
+                  Social media content creation is a vital skill for any
+                  business that wants to reach and engage with its target
+                  audience.
                 </p>
                 {/* <a
                   href="#"
@@ -637,11 +645,11 @@ const LandingHero = () => {
 
               <div>
                 <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                3D Modelling 
+                  3D Modelling
                 </h3>
                 <p className="mb-2 text-gray-500">
-                  Filler text is dummy text which has no meaning however looks
-                  very similar to real text.
+                  A 3D model is a digital representation of a scene or object in
+                  three dimensions. For a variety of purposes.
                 </p>
                 {/* <a
                   href="#"
@@ -650,8 +658,6 @@ const LandingHero = () => {
                   More
                 </a> */}
               </div>
-
-              
             </div>
 
             <div className="flex gap-4 md:gap-6">
@@ -674,11 +680,12 @@ const LandingHero = () => {
 
               <div>
                 <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                Content Writing 
+                  Content Writing
                 </h3>
                 <p className="mb-2 text-gray-500">
-                  Filler text is dummy text which has no meaning however looks
-                  very similar to real text.
+                  Ghost Writing, Content Writing, Copywriting, Blogging. No more
+                  stress from researching topics to writing high quality
+                  content.
                 </p>
                 {/* <a
                   href="#"
@@ -687,8 +694,6 @@ const LandingHero = () => {
                   More
                 </a> */}
               </div>
-
-              
             </div>
 
             <div className="flex gap-4 md:gap-6">
@@ -711,11 +716,12 @@ const LandingHero = () => {
 
               <div>
                 <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                Video Editing 
+                  Video Editing
                 </h3>
                 <p className="mb-2 text-gray-500">
-                  Filler text is dummy text which has no meaning however looks
-                  very similar to real text.
+                  It can be employed to highlight important details, demystify
+                  complex ideas, or narrate a narrative. Your audience can be
+                  entertained, educated.
                 </p>
                 {/* <a
                   href="#"
@@ -724,8 +730,6 @@ const LandingHero = () => {
                   More
                 </a> */}
               </div>
-
-              
             </div>
           </div>
         </div>
@@ -740,9 +744,9 @@ const LandingHero = () => {
             </h2>
 
             <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-              This is a section of some simple filler text, also known as
-              placeholder text. It shares some characteristics of a real written
-              text but is random or otherwise generated.
+              Our team is not only technically proficient, but also
+              customer-oriented. We value communication with our clients, and we
+              believe it is key to a successful project.
             </p>
           </div>
 
