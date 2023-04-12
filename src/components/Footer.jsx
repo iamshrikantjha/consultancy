@@ -34,7 +34,7 @@ const Footer = () => {
               <div className="mb-4 lg:-mt-2">
                 <a
                   href="/"
-                  className="text-black-800 inline-flex items-center gap-2 text-xl font-bold md:text-2xl"
+                  className="text-black-800 inline-flex items-center gap-2 text-xl font-bold md:text-2xl uppercase"
                   aria-label="logo"
                 >
                   <svg
@@ -47,7 +47,7 @@ const Footer = () => {
                   >
                     <path d="M96 0V47L48 94H0V47L48 0H96Z" />
                   </svg>
-                  Flowrift
+                  Mindpursuit
                 </a>
               </div>
 
@@ -304,8 +304,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="border-t py-8 text-center text-sm text-gray-400">
-            © 2021 - Present Flowrift. All rights reserved.
+          <div className="border-t py-8 text-center text-sm text-gray-400 uppercase">
+            © 2021 - Present Mindpursuit. All rights reserved.
           </div>
         </div>
       </div>

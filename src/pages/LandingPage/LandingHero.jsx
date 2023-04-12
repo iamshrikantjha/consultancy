@@ -50,7 +50,7 @@ const LandingHero = () => {
           <header className="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
             <a
               href="/"
-              className="text-black-800 inline-flex items-center gap-2.5 text-2xl font-bold md:text-3xl"
+              className="text-black-800 inline-flex items-center gap-2.5 text-2xl font-bold md:text-3xl uppercase"
               aria-label="logo"
             >
               <svg
@@ -63,7 +63,7 @@ const LandingHero = () => {
               >
                 <path d="M96 0V47L48 94H0V47L48 0H96Z" />
               </svg>
-              Flowrift
+              Mindpursuit
             </a>
 
             {/* <nav className="hidden gap-12 lg:flex">
