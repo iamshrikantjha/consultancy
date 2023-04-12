@@ -52,8 +52,7 @@ const Footer = () => {
               </div>
 
               <p className="mb-6 text-gray-500 sm:pr-8">
-                Filler text is dummy text which has no meaning however looks
-                very similar to real text
+              Revolutionary way to build an impact in tech.
               </p>
 
               <div className="flex gap-4">
@@ -305,7 +304,7 @@ const Footer = () => {
           </div>
 
           <div className="border-t py-8 text-center text-sm text-gray-400 uppercase">
-            © 2021 - Present Mindpursuit. All rights reserved.
+            © 2023 - Present Mindpursuit. All rights reserved.
           </div>
         </div>
       </div>
