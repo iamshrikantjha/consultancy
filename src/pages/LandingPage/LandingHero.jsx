@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 // import Nodemailer from 'nodemailer'
-import AuthorImg from './../../assets/pritesh2.jpeg'
+import AuthorImg from "./../../assets/pritesh2.jpeg";
+import DefaultImg from "./../../assets/Default.jpeg";
 
 const LandingHero = () => {
-
   // const sendEmail = async() => {
   //   try {
   //       // Generate test SMTP service account from ethereal.email
   //       // Only needed if you don't have a real mail account for testing
   //       let testAccount = await Nodemailer.createTestAccount();
-      
+
   //       // create reusable transporter object using the default SMTP transport
   //       let transporter = Nodemailer.createTransport({
   //         host: "smtp.ethereal.email",
@@ -20,7 +20,7 @@ const LandingHero = () => {
   //           pass: testAccount.pass, // generated ethereal password
   //         },
   //       });
-      
+
   //       // send mail with defined transport object
   //       let info = await transporter.sendMail({
   //         from: '"Fred Foo 👻" <foo@example.com>', // sender address
@@ -29,10 +29,10 @@ const LandingHero = () => {
   //         text: "Hello world?", // plain text body
   //         html: "<b>Hello world?</b>", // html body
   //       });
-      
+
   //       console.log("Message sent: %s", info.messageId);
   //       // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-      
+
   //       // Preview only available when sending through an Ethereal account
   //       console.log("Preview URL: %s", Nodemailer.getTestMessageUrl(info));
   //       // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
@@ -41,9 +41,13 @@ const LandingHero = () => {
   //   }
   // }
 
+  const openInNewTab = () => {
+    const url = 'https://docs.google.com/forms/d/1MPyTZS7nNr53II3mJdFpa7Bg4GsH-Vy_0tmV83hoO5M/'
+    window.open(url, '_blank', 'noreferrer');
+  };
+
   return (
     <>
-
       {/* HERO SECTION */}
       <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
@@ -92,6 +96,7 @@ const LandingHero = () => {
 
             <a
               href="#"
+              onClick={openInNewTab}
               className="hidden rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block"
             >
               Contact Now
@@ -147,7 +152,7 @@ const LandingHero = () => {
             <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-96 xl:w-5/12">
               <img
                 // src="https://images.unsplash.com/photo-1618556450991-2f1af64e8191?auto=format&q=75&fit=crop&w=1000"
-                src='https://img.freepik.com/free-vector/strategic-consulting-concept-illustration_114360-8994.jpg?w=2000'
+                src="https://img.freepik.com/free-vector/strategic-consulting-concept-illustration_114360-8994.jpg?w=2000"
                 loading="lazy"
                 alt="Photo by Fakurian Design"
                 className="h-full w-full object-cover object-center"
@@ -385,14 +390,19 @@ const LandingHero = () => {
               <h2 className="text-xl font-bold text-indigo-500 md:text-2xl">
                 Have some ideas?
               </h2>
-              <p className="text-gray-600"> Get a free quote from us right away if you're interested in any of these services.</p>
+              <p className="text-gray-600">
+                {" "}
+                Get a free quote from us right away if you're interested in any
+                of these services.
+              </p>
             </div>
 
             <a
               href="#"
+              onClick={openInNewTab}
               className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
             >
-              Call now
+              Contact Now
             </a>
           </div>
         </div>
@@ -816,7 +826,7 @@ const LandingHero = () => {
             <div className="flex flex-col items-center">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
                 <img
-                  src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=256"
+                  src={DefaultImg}
                   loading="lazy"
                   alt="Photo by christian ferrer"
                   className="h-full w-full object-cover object-center"
@@ -825,10 +835,10 @@ const LandingHero = () => {
 
               <div>
                 <div className="text-center font-bold text-indigo-500 md:text-lg">
-                  Kate Berg
+                  Chander Shekhar Pandey
                 </div>
                 <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                  CFO
+                  Developer
                 </p>
 
                 <div className="flex justify-center">
@@ -874,7 +884,7 @@ const LandingHero = () => {
             <div className="flex flex-col items-center">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
                 <img
-                  src="https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&q=75&fit=crop&w=256"
+                  src={DefaultImg}
                   loading="lazy"
                   alt="Photo by Ayo Ogunseinde"
                   className="h-full w-full object-cover object-center"
@@ -883,10 +893,10 @@ const LandingHero = () => {
 
               <div>
                 <div className="text-center font-bold text-indigo-500 md:text-lg">
-                  Greg Jackson
+                  Mandeep Baliyan
                 </div>
                 <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                  CTO
+                  Developer
                 </p>
 
                 <div className="flex justify-center">
@@ -932,7 +942,7 @@ const LandingHero = () => {
             <div className="flex flex-col items-center">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
                 <img
-                  src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256"
+                  src={DefaultImg}
                   loading="lazy"
                   alt="Photo by Midas Hofstra"
                   className="h-full w-full object-cover object-center"
@@ -941,10 +951,10 @@ const LandingHero = () => {
 
               <div>
                 <div className="text-center font-bold text-indigo-500 md:text-lg">
-                  Robert Greyson
+                  Sushim
                 </div>
                 <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                  Creative Director
+                  UI / UX Developer
                 </p>
 
                 <div className="flex justify-center">
@@ -990,7 +1000,7 @@ const LandingHero = () => {
             <div className="flex flex-col items-center">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
                 <img
-                  src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&q=75&fit=crop&w=256"
+                  src={DefaultImg}
                   loading="lazy"
                   alt="Photo by Elizeu Dias"
                   className="h-full w-full object-cover object-center"
@@ -999,10 +1009,10 @@ const LandingHero = () => {
 
               <div>
                 <div className="text-center font-bold text-indigo-500 md:text-lg">
-                  John Roberts
+                  Avishek
                 </div>
                 <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                  Investor Relations
+                  System Designer
                 </p>
 
                 <div className="flex justify-center">
@@ -1048,7 +1058,7 @@ const LandingHero = () => {
             <div className="flex flex-col items-center">
               <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
                 <img
-                  src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&q=75&fit=crop&w=256"
+                  src={DefaultImg}
                   loading="lazy"
                   alt="Photo by Matheus Ferrero"
                   className="h-full w-full object-cover object-center"
@@ -1057,126 +1067,10 @@ const LandingHero = () => {
 
               <div>
                 <div className="text-center font-bold text-indigo-500 md:text-lg">
-                  Judy Amandez
+                  Tanfis
                 </div>
                 <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                  Senior Art Director
-                </p>
-
-                <div className="flex justify-center">
-                  <div className="flex gap-4">
-                    <a
-                      href="#"
-                      target="_blank"
-                      className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
-                    >
-                      <svg
-                        className="h-5 w-5"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                      </svg>
-                    </a>
-
-                    <a
-                      href="#"
-                      target="_blank"
-                      className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
-                    >
-                      <svg
-                        className="h-5 w-5"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col items-center">
-              <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
-                <img
-                  src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&q=75&fit=crop&w=256"
-                  loading="lazy"
-                  alt="Photo by Leilani Angel"
-                  className="h-full w-full object-cover object-center"
-                />
-              </div>
-
-              <div>
-                <div className="text-center font-bold text-indigo-500 md:text-lg">
-                  Rahul Williams
-                </div>
-                <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                  Creative Director
-                </p>
-
-                <div className="flex justify-center">
-                  <div className="flex gap-4">
-                    <a
-                      href="#"
-                      target="_blank"
-                      className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
-                    >
-                      <svg
-                        className="h-5 w-5"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                      </svg>
-                    </a>
-
-                    <a
-                      href="#"
-                      target="_blank"
-                      className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
-                    >
-                      <svg
-                        className="h-5 w-5"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col items-center">
-              <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
-                <img
-                  src="https://images.unsplash.com/photo-1562904403-a5106bef8319?auto=format&q=75&fit=crop&w=256"
-                  loading="lazy"
-                  alt="Photo by Jernej Graj"
-                  className="h-full w-full object-cover object-center"
-                />
-              </div>
-
-              <div>
-                <div className="text-center font-bold text-indigo-500 md:text-lg">
-                  Ari Ferris
-                </div>
-                <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                  Marketing Analyst
+                  Developer
                 </p>
 
                 <div className="flex justify-center">
@@ -1374,9 +1268,8 @@ const LandingHero = () => {
             </h2>
 
             <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-              This is a section of some simple filler text, also known as
-              placeholder text. It shares some characteristics of a real written
-              text but is random or otherwise generated.
+              Let's troubleshoot some common questions regarding our services
+              and the technology solutions we provide.
             </p>
           </div>
 
@@ -1398,12 +1291,11 @@ const LandingHero = () => {
               </span>
 
               <h3 className="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">
-                How does the product work?
+                What services does the website offer?
               </h3>
               <p className="text-gray-500">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+                The website offers technical consulting services including web
+                development, UI/UX design, and backend and frontend development.
               </p>
             </div>
 
@@ -1424,12 +1316,11 @@ const LandingHero = () => {
               </span>
 
               <h3 className="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">
-                What are the features?
+                What kind of professionals does the website assemble?
               </h3>
               <p className="text-gray-500">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+                The website assembles a team of knowledgeable and experienced
+                professionals to meet the technical needs of its customers.
               </p>
             </div>
 
@@ -1450,12 +1341,12 @@ const LandingHero = () => {
               </span>
 
               <h3 className="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">
-                What about integrations?
+                Is the website user-friendly?
               </h3>
               <p className="text-gray-500">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+                Yes, the website is user-friendly and has an interface that
+                makes it simple for customers to browse services, select what
+                they need, and get in touch with experts.
               </p>
             </div>
 
@@ -1476,12 +1367,11 @@ const LandingHero = () => {
               </span>
 
               <h3 className="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">
-                Is support available?
+                Does the website offer specialized solutions?
               </h3>
               <p className="text-gray-500">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+                Yes, the website offers specialized solutions to meet the
+                specific requirements of each client.
               </p>
             </div>
 
@@ -1502,12 +1392,12 @@ const LandingHero = () => {
               </span>
 
               <h3 className="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">
-                How does one upgrage a plan?
+                What is the website's focus?
               </h3>
               <p className="text-gray-500">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+                The website's focus is on providing all customers with a
+                seamless and trouble-free experience, with a focus on quality
+                and timely delivery.
               </p>
             </div>
 
@@ -1528,12 +1418,12 @@ const LandingHero = () => {
               </span>
 
               <h3 className="mb-3 text-lg font-semibold text-indigo-500 md:text-xl">
-                Which payment methods are available?
+                What is web development?
               </h3>
               <p className="text-gray-500">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+                Web development refers to the process of building, creating, and
+                maintaining websites. It involves coding, designing, and
+                programming a website from scratch.
               </p>
             </div>
           </div>
@@ -2133,6 +2023,6 @@ const LandingHero = () => {
       </div> */}
     </>
   );
-}
+};
 
-export default LandingHero
+export default LandingHero;

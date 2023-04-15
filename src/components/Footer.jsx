@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Footer = () => {
+  const openInNewTab = () => {
+    const url = 'https://docs.google.com/forms/d/1MPyTZS7nNr53II3mJdFpa7Bg4GsH-Vy_0tmV83hoO5M/'
+    window.open(url, '_blank', 'noreferrer');
+  };
+  
   return (
     <footer className="bg-white">
       {/* <div className="bg-indigo-500 py-6">
@@ -232,6 +237,7 @@ const Footer = () => {
                 <div>
                   <a
                     href="#"
+                    onClick={openInNewTab}
                     className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                   >
                     Contact
